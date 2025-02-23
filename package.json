@@ -4,9 +4,9 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
-    "lint": "biome lint --apply ./src/**/*",
-    "format": "biome format ./src/**/* --write",
-    "check": "biome check --apply ./src/**/*"
+    "lint": "biome lint --apply ./app/**/*",
+    "format": "biome format ./app/**/* --write",
+    "check": "biome check --apply ./app/**/*"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
