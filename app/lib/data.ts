@@ -9,6 +9,7 @@ import type {
 } from './definitions';
 import { formatCurrency } from './utils';
 
+// biome-ignore lint/style/noNonNullAssertion: <explanation>
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
 export async function fetchRevenue() {
