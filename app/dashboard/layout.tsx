@@ -5,6 +5,8 @@ type Props = {
   children: ReactNode;
 };
 
+export const experimental_ppr = true;
+
 export default function Layout({ children }: Props) {
   return (
     <div className='flex h-screen flex-col md:flex-row md:overflow-hidden'>
